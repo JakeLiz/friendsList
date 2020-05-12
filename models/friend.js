@@ -1,4 +1,7 @@
 /* Friends module */
+// Note: file name used to be Friend.js however this causes bug when deploying to heroku.
+// always use lowercase when using node.js.
+// ref: https://devcenter.heroku.com/articles/node-best-practices#stick-with-lowercase
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
